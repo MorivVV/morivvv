@@ -1,0 +1,15 @@
+.wrapper{
+	background: #ccd;
+	max-width: 1280;
+	margin: -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.elem{
+	
+	margin: 10px;
+	background: blue;
+	width: 10%;
+	min-width:100px;
+	min-height: 100px;
+}

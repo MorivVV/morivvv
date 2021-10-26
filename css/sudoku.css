@@ -1,0 +1,41 @@
+table{
+	border-spacing:0;
+}
+td {
+	padding: 0;
+	text-align: center;
+	height:54px;
+	width: 54px;
+	font-size:2rem;
+	border: solid 1px gray;
+}
+td.sudo:nth-child(1) {
+	border-left: solid 3px black;
+}
+td.sudo:nth-child(3n) {
+	border-right: solid 3px black;
+}
+tr.sudoku-line:nth-child(1)> td{
+	border-top: solid 3px black;
+}
+tr.sudoku-line:nth-child(3n)> td{
+	border-bottom: solid 3px black;
+}
+.basic {
+	font-weight:bold;
+	color: darkblue;
+}
+.answer {
+	color: coral;
+}
+.answer:hover {
+	border-color: red;
+}
+.sudo-numer {
+	height:16px;
+	width: 16px;
+	font-size:11px;
+}
+.hide {
+	display:none;
+}

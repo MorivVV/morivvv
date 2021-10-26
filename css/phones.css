@@ -1,0 +1,96 @@
+.phone{
+	display: flex;
+	flex-wrap:wrap;
+	align-items:stretch;
+	margin: 1px;
+	border: 1px solid gray;
+}
+.phone:hover{
+    background: lightblue;
+}
+.iphon{
+	 font-size: 8pt;
+/*	 background: white; */
+	 flex-basis: 10%;
+	 border: 1px solid silver;
+	 text-decoration: none;
+}
+.id input{
+	width: 99%;
+}
+.id{
+	flex-basis: 20px;
+	align-self:stretch;
+}
+.name{
+	flex-basis: 55px;
+}
+.name input{
+	font-size: 8pt; width: 99%;
+}
+.company{
+	flex-basis: 60px;
+}
+.iphon select {
+	font-size: 8pt; width: 99%;
+}
+.processor{
+	flex-basis: 80px;
+}
+.processor, .name, .display{
+	flex-grow: 1;
+}
+.display{
+	flex-basis: 75px;
+}
+.display input {
+	font-size: 8pt; width: 99%;
+}
+.display-width{
+	flex-basis: 50px;
+}
+.display-width input {
+	font-size: 8pt; width: 99%;
+}
+.ram, .flash{
+	flex-basis: 35px;
+}
+.rearcamera{
+	flex-basis: 60px;
+}
+.rearcamera input{
+	font-size: 8pt; width: 99%;
+}
+.frontcamera{
+	flex-basis: 50px;
+}
+.frontcamera input{
+	font-size: 8pt; width: 99%;
+}
+.scanner{
+	flex-basis: 40px;
+}
+.scanner input{
+	font-size: 8pt; width: 99%;
+}
+.battery{
+	flex-basis: 40px;
+}
+.battery input{
+	font-size: 8pt; width: 99%;
+}
+.antutu{
+	flex-basis: 50px;
+}
+.antutu input{
+	font-size: 8pt; width: 99%;
+}
+.weight{
+	flex-basis: 30px;
+}
+.weight input{
+	font-size: 8pt; width: 99%;
+}
+.add_phone {
+	width: 100%;
+}

@@ -1,0 +1,40 @@
+.register{
+	min-width: 250px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.info{
+	flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.info span{
+	width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+	flex-direction: row-reverse;
+	padding-right: 5px;
+	flex-grow: 1;
+}
+.info input{
+	width: 300;
+    flex-basis: 173px;
+    flex-grow: 1;
+}
+#check{
+	display: flex;
+    font-size: .7rem;
+    align-self: flex-end;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.user_no{
+	color: green;
+}
+.user_yes{
+	color: red;
+}

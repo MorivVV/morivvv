@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Гардероб</title>
+        <script src="js/vue.js"></script>
+        <style>
+            #wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                width: 1200px;
+                background: azure;
+            }
+            .box{
+                margin-bottom: 50px;
+                width: 100px;
+                height: 200px;
+                padding: 1px;
+            }
+            .boxinside{
+                border: 1px solid blue;
+                background: gold;
+                padding: 1px;
+            }
+            .box-unit{
+                background: lightgray;
+                height: 100%;
+                border: 1px solid blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div v-for="i in box" class="box">
+                <div class="box-unit" v-html="boxe(i)"></div>              
+            </div>
+        </div>            
+    </body>
+    <script>
+        var vm = new Vue({
+                el: '#wrapper',
+                data: {
+                    box:44
+                },
+                methods: {
+                    boxe: function(i){
+                        let block;
+                        block = '<div class="boxinside">' + i + '</div>';
+                        return block;
+                    }
+                }
+              })
+    </script>
+</html>

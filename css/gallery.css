@@ -1,0 +1,150 @@
+.wrapper{
+	max-width: 1280;
+	margin: -5px;
+	background: lightcyan;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+        margin-bottom: 10px;
+}
+.tile {
+    padding-bottom: 30px;
+}
+.wide:hover{
+	width: 180px;
+	height: 270px;
+}
+.wide:hover img{
+	transform: rotate(0deg);
+	position: relative;
+	z-index: 10000;
+	width: 180px;
+	height: 270px;
+	top: -77px;
+    left: -2px;
+	background: white;
+    padding: 2;
+}
+.wide{
+	transform: rotate(0deg);
+	width: 180px;
+	height: 120px;
+}
+.wide img{
+	transform: rotate(90deg);
+	position: absolute;
+    top: -30px;
+    left: 30px;
+	width: 120px;
+	height: 180px;
+	object-fit: cover;
+}
+.vert {
+	width: 180px;
+	height: 120px;
+}
+#your-files{
+    background-color: greenyellow;
+    min-height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.vert img{
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+}
+.vert:hover{
+	width: 270px;
+	height: 180px;
+	z-index: 1000;
+}
+.vert:hover img{
+	position: relative;
+	z-index: 10000;
+	width: 270px;
+	height: 180px;
+	top: -37px;
+    left: -52px;
+	background: white;
+    padding: 2;
+}
+.galblock{
+	padding: 1px;
+	width: 180px;
+	height: 120px;
+}
+.galblock:hover{
+	z-index:1;
+}
+.galelem{
+	position:relative;
+	overflow:hidden;
+	margin: 3px;
+	background: palegreen;
+	width: 18%;
+	flex-basis: 19%;
+}
+@media screen and (max-width: 1024px){
+	.galelem{
+		flex-basis: 23%;
+	}
+}
+@media screen and (max-width: 600px){
+	.galelem{
+		flex-basis: 24%;
+		margin: 1px;
+	}
+}
+.galelem img
+{
+	position:absolute;
+	top:21px;
+	left: 0;
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+	min-width: 100px;
+ }
+.gal_nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex: 1 1 ;
+}
+.gal_prev{
+	flex-basis: 50%;
+}
+.gal_next{
+	flex-basis: 100%;
+}
+.gal_next a{
+	text-shadow: -1px -1px lightblue,
+               0 1px 0 lightblue;
+	color: silver;
+	margin: 1px 3px;
+	padding: 2px 2px;
+    border: 1px solid green;
+    text-decoration: none;
+}
+.gal_next a:hover{
+	color: darkblue;
+}
+.gal_next b{
+	text-shadow: -1px -1px silver,
+               0 1px 0 darkblue;
+    color: lightblue;
+	font-size: 18px;
+	margin: 1px 3px;
+	padding: 2px 2px;
+}
+.relation{
+	padding-top: 100%;
+}
+.galleryin
+{	
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}

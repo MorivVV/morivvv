@@ -1,0 +1,45 @@
+div#snake{
+	position: fixed;
+	display: flow-root;
+    justify-content: center;
+	background: #fafafac0;
+}
+div#topscore{
+	padding: 25px 0 0 0;
+	font-size: smaller;
+	text-align: right;
+}
+table#snake-field {
+	border-spacing: 0px;
+	border:1px solid red;
+}
+#snake-field tr {
+	height:30px;
+}
+#snake-field td {
+	width:30px;
+	margin:0;
+	padding:0;
+}
+td[name="apple"]{
+	background: url("../image/system/Apple-icon.png") no-repeat;
+	background-size: 100%;
+}
+td[name="snake-head"], td[name="snake-body"]{
+	background: url("../image/system/o-o.png") -2px -2px no-repeat;
+	background-size: 111%;
+}
+td[name="snake-body"]{
+	background: url("../image/system/o-o.png") 0 -1px no-repeat;
+	background-size: 95%;	
+}
+.score{
+	position:relative;
+	left: 20px;
+	font-weight: bold;
+}
+.game-info{
+	position:relative;
+	left: 200px;
+	font-size: small;
+}

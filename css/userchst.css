@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29.10.2019, 23:01:27
+    Author     : MorivVV
+*/
+#connect{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    text-shadow: none;
+    padding: 5px;
+    border-radius: 15px 15px;
+    margin: 10px 10px 5px;
+    width: 190px;
+}
+.online{
+    background: forestgreen;
+}
+.offline{
+    background: red; 
+}
+.rooms a{
+    margin: 5px;
+}

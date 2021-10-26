@@ -1,0 +1,13 @@
+Header add Access-Control-Allow-Origin "*" 
+Header add Access-Control-Allow-Headers "origin, x-requested-with, Content-Type" 
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
+AddDefaultCharset UTF-8
+Options -Indexes
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([a-zA-Z]+)([0-9-]*)\$$ index.php?url=$1&param=$2&hf=0 [L]
+RewriteRule ^([a-zA-Z]+)([0-9-]*)$ index.php?url=$1&param=$2 [L]
+RewriteRule ^([a-zA-Z]+)/([^\/\.]*)\$$ index.php?url=$1&param=$2&hf=0 [L]
+RewriteRule ^([a-zA-Z]+)/([^\/\.]*)$ index.php?url=$1&param=$2 [L]
+RewriteRule ^([a-zA-Z0-9^\/^-]+)$ index.php?url=404&param=$1 [L]

@@ -1,0 +1,579 @@
+Workerman[public_html/morivvv.ru/pm_server.php] start in DEBUG mode
+--------------------------------------------- WORKERMAN ---------------------------------------------
+Workerman version:3.5.22          PHP version:7.1.32
+---------------------------------------------- WORKERS ----------------------------------------------
+proto   user            worker          listen                         processes    status           
+ssl     m54052          none            websocket://morivvv.ru:8080    1             [OK]            
+-----------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+23:11:11: MorivVV вошел в чат c IP:46.0.155.141:50108
+23:12:05: Муромец вошел в чат c IP:46.0.155.141:50176
+23:16:04: Муромец покинул чат (46.0.155.141:50176)
+23:16:04: Муромец вошел в чат c IP:46.0.155.141:50459
+23:16:05: Муромец покинул чат (46.0.155.141:50459)
+23:16:05: Муромец вошел в чат c IP:46.0.155.141:50462
+23:16:11Сейчас в канале 
+Муромец 
+23:16:11: сообщение 'nrcn' получает 19097b7ea7ac0aea9fda5960eae1c919 Муромец: 46.0.155.141:50108
+Муромец 23:16:13: Муромец покинул чат (46.0.155.141:50462)
+23:16:14: Муромец покинул чат (46.0.155.141:50108)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+23:24:15: Муромец покинул чат (93.117.16.97:36039)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+23:40:46: Муромец покинул чат (60.191.38.77:61167)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+23:40:46: Муромец покинул чат (60.191.38.77:54234)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+23:40:46: Муромец покинул чат (60.191.38.77:57926)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+23:40:46: Муромец покинул чат (60.191.38.77:27387)
+23:55:23: MorivVV вошел в чат c IP:46.0.155.141:52359
+23:55:25: MorivVV покинул чат (46.0.155.141:52359)
+23:55:25: MorivVV вошел в чат c IP:46.0.155.141:52360
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+00:02:32: MorivVV покинул чат (209.17.96.106:54649)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+00:04:02: MorivVV покинул чат (106.13.124.76:38680)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+00:04:02: MorivVV покинул чат (106.13.124.76:39554)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+00:04:03: MorivVV покинул чат (106.13.124.76:40552)
+00:04:04: MorivVV покинул чат (106.13.124.76:36820)
+01:09:10: MorivVV покинул чат (46.0.155.141:52360)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+01:28:26: MorivVV покинул чат (209.17.97.66:56369)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+01:30:27: MorivVV покинул чат (107.189.11.148:56094)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+01:34:28: MorivVV покинул чат (209.17.96.122:48747)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+01:58:57: MorivVV покинул чат (209.17.97.10:60085)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+02:20:26: MorivVV покинул чат (186.113.4.42:59745)
+02:34:23: MorivVV покинул чат (104.152.52.61:40985)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+02:34:31: MorivVV покинул чат (104.152.52.61:44259)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:31: MorivVV покинул чат (104.152.52.61:54553)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:31: MorivVV покинул чат (104.152.52.61:55156)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+02:34:32: MorivVV покинул чат (104.152.52.61:55692)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:32: MorivVV покинул чат (104.152.52.61:56309)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:32: MorivVV покинул чат (104.152.52.61:56936)
+02:34:38: MorivVV покинул чат (104.152.52.61:57611)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:38: MorivVV покинул чат (104.152.52.61:38541)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:38: MorivVV покинул чат (104.152.52.61:39088)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:39: MorivVV покинул чат (104.152.52.61:39603)
+02:34:47: MorivVV покинул чат (104.152.52.61:40201)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14076102:SSL routines:SSL23_GET_CLIENT_HELLO:unsupported protocol 
+02:34:47: MorivVV покинул чат (104.152.52.61:53503)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:47: MorivVV покинул чат (104.152.52.61:54450)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:47: MorivVV покинул чат (104.152.52.61:55088)
+02:34:53: MorivVV покинул чат (104.152.52.61:55740)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:53: MorivVV покинул чат (104.152.52.61:36708)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:53: MorivVV покинул чат (104.152.52.61:37317)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:54: MorivVV покинул чат (104.152.52.61:37895)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:54: MorivVV покинул чат (104.152.52.61:38538)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:54: MorivVV покинул чат (104.152.52.61:39178)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:55: MorivVV покинул чат (104.152.52.61:39740)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:55: MorivVV покинул чат (104.152.52.61:40346)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:55: MorivVV покинул чат (104.152.52.61:40827)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol 
+02:34:56: MorivVV покинул чат (104.152.52.61:41302)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+02:37:52: MorivVV покинул чат (162.158.62.110:39674)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+02:55:36: MorivVV покинул чат (189.132.159.80:37160)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+03:51:58: MorivVV покинул чат (200.123.130.5:45866)
+04:38:33: MorivVV покинул чат (47.98.35.66:34704)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+04:39:01: MorivVV покинул чат (47.98.35.66:37502)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+04:39:28: MorivVV покинул чат (47.98.35.66:38792)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+04:39:30: MorivVV покинул чат (47.98.35.66:40042)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+05:00:45: MorivVV покинул чат (60.191.38.77:10814)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+05:14:30: MorivVV покинул чат (209.17.97.106:42888)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+06:16:21: MorivVV покинул чат (172.68.74.107:30070)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+06:23:17: MorivVV покинул чат (95.19.88.114:56553)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+06:43:18: MorivVV покинул чат (209.17.97.2:38059)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+06:53:43: MorivVV покинул чат (168.228.193.202:52479)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+07:14:52: MorivVV покинул чат (188.126.54.232:32776)
+07:45:28: MorivVV вошел в чат c IP:46.0.155.141:52367
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+07:50:26: MorivVV покинул чат (209.17.96.234:44074)
+08:11:42: MorivVV покинул чат (46.0.155.141:52367)
+08:13:36: MorivVV покинул чат (222.73.236.95:35937)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+08:23:59: MorivVV покинул чат (143.255.242.194:44094)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+08:43:47: MorivVV покинул чат (94.198.142.44:49012)
+08:50:54: Муромец вошел в чат c IP:46.0.155.141:4198
+08:51:01: MorivVV вошел в чат c IP:46.0.155.141:4204
+08:51:03: MorivVV покинул чат (46.0.155.141:4204)
+08:51:03: MorivVV вошел в чат c IP:46.0.155.141:4209
+08:51:07Сейчас в канале 
+MorivVV MorivVV 
+08:51:07: сообщение 'работает' получает 19097b7ea7ac0aea9fda5960eae1c919 MorivVV: 46.0.155.141:4209
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+08:53:01: MorivVV покинул чат (147.158.118.36:52948)
+08:53:01: MorivVV покинул чат (46.0.155.141:4198)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:05:15: MorivVV покинул чат (209.17.97.114:48788)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:14:53: MorivVV покинул чат (209.17.97.34:60006)
+09:23:46: MorivVV покинул чат (46.0.155.141:4209)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:41:00: MorivVV покинул чат (45.137.181.33:58932)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:41:01: MorivVV покинул чат (45.137.181.33:58950)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:41:01: MorivVV покинул чат (45.137.181.33:58965)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:51:15: MorivVV покинул чат (88.80.116.100:41253)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:53:25: MorivVV покинул чат (209.17.97.10:34522)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+09:53:25: MorivVV покинул чат (209.17.97.10:42240)
+10:33:16: MorivVV вошел в чат c IP:85.26.165.164:61783
+10:33:17: MorivVV покинул чат (85.26.165.164:61783)
+10:33:17: MorivVV вошел в чат c IP:85.26.165.164:4311
+10:33:49: федя вошел в чат c IP:85.26.234.8:48280
+10:33:50: федя покинул чат (85.26.234.8:48280)
+10:33:52: федя вошел в чат c IP:85.26.234.8:34423
+10:33:58Сейчас в канале 
+федя федя 
+10:33:58: сообщение '<img style='max-height: 64px;' src='/image/vkCat/16.png'><br />
+В кино едем' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:34423
+10:33:58: федя покинул чат (85.26.165.164:4311)
+10:33:59: MorivVV вошел в чат c IP:85.26.165.164:25482
+10:34:03Сейчас в канале 
+MorivVV MorivVV 
+10:34:03: сообщение 'Суп' получает 9bb8cb01e2d9e6c8073364ba863f0c7f MorivVV: 85.26.165.164:25482
+10:34:11Сейчас в канале 
+MorivVV 
+10:34:11: сообщение 'Какой суп' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:34423
+MorivVV 10:34:41Сейчас в канале 
+MorivVV MorivVV 
+10:34:41: сообщение 'Мур' получает 9bb8cb01e2d9e6c8073364ba863f0c7f MorivVV: 85.26.165.164:25482
+10:34:43Сейчас в канале 
+MorivVV 
+10:34:43: сообщение 'Сама себе пишешь?' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:34423
+MorivVV 10:34:47Сейчас в канале 
+MorivVV MorivVV 
+10:34:47: сообщение 'Ахаха' получает 9bb8cb01e2d9e6c8073364ba863f0c7f MorivVV: 85.26.165.164:25482
+10:34:50: MorivVV покинул чат (85.26.234.8:34423)
+10:34:50: федя вошел в чат c IP:85.26.234.8:33669
+10:34:55Сейчас в канале 
+федя 
+10:34:55: сообщение 'Тебе' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:25482
+федя 10:35:10Сейчас в канале 
+федя федя 
+10:35:10: сообщение 'У меня звук включён' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:35:10Сейчас в канале 
+федя федя 
+10:35:10: сообщение 'В мак пойдём есть' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:35:17Сейчас в канале 
+федя 
+10:35:17: сообщение 'Не знаю' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:25482
+федя 10:35:22Сейчас в канале 
+федя федя 
+10:35:22: сообщение 'У меня звук нет' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:35:25Сейчас в канале 
+федя федя 
+10:35:25: сообщение 'Почему т о' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:35:27Сейчас в канале 
+федя федя 
+10:35:27: сообщение 'куриные нагнетай' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:35:29Сейчас в канале 
+федя 
+10:35:29: сообщение 'Все включено' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:25482
+федя 10:35:37Сейчас в канале 
+федя федя 
+10:35:37: сообщение 'нагетс' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:36:13Сейчас в канале 
+федя федя 
+10:36:13: сообщение 'а ещё работает прокруткой новых сообщений' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:36:24Сейчас в канале 
+федя федя 
+10:36:24: сообщение 'Появляться' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:36:36Сейчас в канале 
+федя федя 
+10:36:36: сообщение 'как чурека пишу 😁😁😁' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:36:44Сейчас в канале 
+федя федя 
+10:36:44: сообщение 'Ахахах' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+10:37:25: федя покинул чат (209.17.97.2:52171)
+10:37:42Сейчас в канале 
+федя федя 
+10:37:42: сообщение 'ты куда пропала' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33669
+10:38:01: федя покинул чат (85.26.165.164:25482)
+10:38:02: MorivVV вошел в чат c IP:85.26.165.164:38571
+10:40:11Сейчас в канале 
+MorivVV MorivVV 
+10:40:11: сообщение 'Я тут' получает 9bb8cb01e2d9e6c8073364ba863f0c7f MorivVV: 85.26.165.164:38571
+10:40:19Сейчас в канале 
+MorivVV 
+10:40:19: сообщение 'Писать хочу' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:40:25Сейчас в канале 
+MorivVV 
+10:40:25: сообщение 'Писить' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:40:28Сейчас в канале 
+MorivVV 
+10:40:28: сообщение 'И секса' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:40:38Сейчас в канале 
+MorivVV 
+10:40:38: сообщение 'А где была' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:40:39Сейчас в канале 
+MorivVV 
+10:40:39: сообщение 'Я около окна сел' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:40:58Сейчас в канале 
+MorivVV 
+10:40:58: сообщение 'тут место освободилось' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:41:12Сейчас в канале 
+MorivVV 
+10:41:12: сообщение 'Потею' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:41:28Сейчас в канале 
+MorivVV 
+10:41:28: сообщение 'с головы вода капает 💧 💧 💧' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:08Сейчас в канале 
+MorivVV MorivVV 
+10:42:08: сообщение 'Вайбер чатюсь' получает 9bb8cb01e2d9e6c8073364ba863f0c7f MorivVV: 85.26.165.164:38571
+10:42:30Сейчас в канале 
+MorivVV 
+10:42:30: сообщение 'Ты че хочешь мак' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:42Сейчас в канале 
+MorivVV 
+10:42:42: сообщение 'Расстегнись' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:47Сейчас в канале 
+MorivVV 
+10:42:47: сообщение 'Будет холодно' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:51Сейчас в канале 
+MorivVV 
+10:42:51: сообщение 'Ты где пупс' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:53Сейчас в канале 
+MorivVV 
+10:42:53: сообщение 'Мой' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:42:57Сейчас в канале 
+MorivVV 
+10:42:57: сообщение 'Любимый' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:43:12Сейчас в канале 
+MorivVV 
+10:43:12: сообщение 'Мурррррр' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb MorivVV: 85.26.234.8:33669
+MorivVV 10:53:25: MorivVV покинул чат (85.26.234.8:33669)
+10:53:26: федя вошел в чат c IP:85.26.234.8:20058
+10:53:29: федя покинул чат (85.26.234.8:20058)
+10:53:29: федя вошел в чат c IP:85.26.234.8:9034
+10:53:38Сейчас в канале 
+федя 
+10:53:38: сообщение 'Ты где' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 10:54:03Сейчас в канале 
+федя федя 
+10:54:03: сообщение 'Игркл' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:54:06Сейчас в канале 
+федя федя 
+10:54:06: сообщение 'в бб' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:54:15Сейчас в канале 
+федя федя 
+10:54:15: сообщение 'ты не пишешь' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:54:20Сейчас в канале 
+федя федя 
+10:54:20: сообщение 'я играю' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:54:54Сейчас в канале 
+федя федя 
+10:54:54: сообщение 'Горло сильней болеть стало' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:55:25Сейчас в канале 
+федя федя 
+10:55:25: сообщение 'Слюни аж глотать больно' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:55:30Сейчас в канале 
+федя 
+10:55:30: сообщение 'Ой не плачь' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 10:55:34Сейчас в канале 
+федя 
+10:55:34: сообщение 'Я куплю тебе лимон' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 10:55:47Сейчас в канале 
+федя 
+10:55:47: сообщение 'Будем тебя лечить' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 10:59:06Сейчас в канале 
+федя федя 
+10:59:06: сообщение 'А ты со звуком?' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:59:17Сейчас в канале 
+федя федя 
+10:59:17: сообщение 'Я вот сразу твои сообщения слышу' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+10:59:48Сейчас в канале 
+федя федя 
+10:59:48: сообщение 'ты не плачь, я куплю тебе калач' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:9034
+11:01:53Сейчас в канале 
+федя 
+11:01:53: сообщение 'Со звуком' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 11:01:58Сейчас в канале 
+федя 
+11:01:58: сообщение 'Может Настройки выключены' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 11:02:00Сейчас в канале 
+федя 
+11:02:00: сообщение 'Не знаю' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:38571
+федя 11:02:09: федя покинул чат (85.26.234.8:9034)
+11:02:11Сейчас в канале 
+федя 11:02:14Сейчас в канале 
+федя 11:02:16Сейчас в канале 
+федя 11:02:25Сейчас в канале 
+федя 11:03:42: федя покинул чат (85.26.165.164:38571)
+11:03:42: MorivVV вошел в чат c IP:85.26.165.164:4479
+11:04:13: MorivVV покинул чат (85.26.165.164:4479)
+11:04:13: MorivVV вошел в чат c IP:85.26.165.164:24116
+11:04:29Сейчас в канале 
+MorivVV 11:04:29: MorivVV покинул чат (85.26.165.164:24116)
+11:04:30: MorivVV вошел в чат c IP:85.26.165.164:18115
+11:04:36: MorivVV покинул чат (85.26.165.164:18115)
+11:04:36: MorivVV вошел в чат c IP:85.26.165.164:30077
+11:05:03Сейчас в канале 
+MorivVV 11:05:09: федя вошел в чат c IP:85.26.234.8:33311
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:05:14: федя покинул чат (209.17.96.186:42963)
+11:05:24Сейчас в канале 
+федя 
+11:05:24: сообщение 'Рубашку тебе поглядим новую' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:30077
+федя 11:05:30Сейчас в канале 
+федя 
+11:05:30: сообщение 'В вида легенде' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:30077
+федя 11:05:42Сейчас в канале 
+федя федя 
+11:05:42: сообщение 'Фото пришло?' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33311
+11:05:48Сейчас в канале 
+федя 
+11:05:48: сообщение '😀😀😀' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:30077
+федя 11:05:50Сейчас в канале 
+федя 
+11:05:50: сообщение 'Не.' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:30077
+федя 11:06:55Сейчас в канале 
+федя федя 
+11:06:55: сообщение 'На мой профиль перейди по ссылке на имени' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33311
+11:07:01Сейчас в канале 
+федя федя 
+11:07:01: сообщение 'там увидишь' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:33311
+11:07:07: федя покинул чат (85.26.165.164:30077)
+11:07:08: MorivVV вошел в чат c IP:85.26.165.164:47682
+11:08:18: MorivVV покинул чат (85.26.234.8:33311)
+11:08:28: федя вошел в чат c IP:85.26.234.8:47755
+11:08:32: федя покинул чат (85.26.234.8:47755)
+11:17:21: федя вошел в чат c IP:85.26.234.8:52386
+11:20:18: федя покинул чат (85.26.234.8:52386)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:33:20: федя покинул чат (209.17.97.90:53372)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:34:28: федя покинул чат (31.140.203.133:38858)
+11:34:38: федя покинул чат (31.140.203.133:64952)
+11:36:32: федя вошел в чат c IP:85.26.234.8:53291
+11:36:34Сейчас в канале 
+федя 
+11:36:34: сообщение '' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:47682
+федя 11:36:35Сейчас в канале 
+федя 
+11:36:35: сообщение '' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:47682
+федя 11:36:36: федя покинул чат (85.26.234.8:53291)
+11:36:52: федя вошел в чат c IP:85.26.234.8:64664
+11:36:59: федя покинул чат (85.26.234.8:64664)
+11:43:48: федя покинул чат (85.26.165.164:47682)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:45:17: федя покинул чат (61.219.11.153:61960)
+11:48:02: MorivVV вошел в чат c IP:85.26.165.164:33851
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:48:37: MorivVV покинул чат (209.17.96.50:59286)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:55:53: MorivVV покинул чат (209.17.96.122:50696)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+11:58:28: MorivVV покинул чат (209.17.96.138:58516)
+12:03:58: MorivVV покинул чат (85.26.165.164:33851)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+12:40:39: MorivVV покинул чат (209.17.96.242:36158)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+12:41:48: MorivVV покинул чат (209.17.96.130:47994)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+12:45:53: MorivVV покинул чат (209.17.96.146:48763)
+13:03:59: MorivVV покинул чат (92.52.224.156:39610)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+13:06:52: MorivVV покинул чат (209.17.97.66:43616)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+13:45:42: MorivVV покинул чат (209.17.96.58:44929)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+14:17:03: MorivVV покинул чат (103.203.210.28:58041)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+14:37:21: MorivVV покинул чат (209.17.96.122:42433)
+15:06:43: MorivVV вошел в чат c IP:85.26.165.164:32947
+15:06:55: MorivVV покинул чат (85.26.165.164:32947)
+15:06:55: MorivVV вошел в чат c IP:85.26.165.164:6108
+15:07:08Сейчас в канале 
+MorivVV 15:09:45: федя вошел в чат c IP:85.26.234.8:31664
+15:09:51Сейчас в канале 
+федя 
+15:09:51: сообщение 'Але бля' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:6108
+федя 15:09:56: федя покинул чат (85.26.234.8:31664)
+15:09:56: федя вошел в чат c IP:85.26.234.8:52294
+15:09:59: федя покинул чат (85.26.234.8:52294)
+15:09:59: федя вошел в чат c IP:85.26.234.8:11258
+15:10:08Сейчас в канале 
+федя 
+15:10:08: сообщение 'Чупушила' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:6108
+федя 15:10:16Сейчас в канале 
+федя федя 
+15:10:16: сообщение '😄😄' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:25Сейчас в канале 
+федя федя 
+15:10:25: сообщение 'Фух' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:30Сейчас в канале 
+федя федя 
+15:10:30: сообщение 'Ты столь' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:31Сейчас в канале 
+федя 
+15:10:31: сообщение 'Тошнит' получает 9bb8cb01e2d9e6c8073364ba863f0c7f федя: 85.26.165.164:6108
+федя 15:10:34Сейчас в канале 
+федя федя 
+15:10:34: сообщение 'Рыдван' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:54Сейчас в канале 
+федя федя 
+15:10:54: сообщение 'Куда едем' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:54Сейчас в канале 
+федя федя 
+15:10:54: сообщение 'Ляляля' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:10:57Сейчас в канале 
+федя федя 
+15:10:57: сообщение 'Домой' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:11:10Сейчас в канале 
+федя федя 
+15:11:10: сообщение 'Все пока' получает 8aa8c1b6c30c2b581aa6a48ca051dbfb федя: 85.26.234.8:11258
+15:11:22: федя покинул чат (85.26.234.8:11258)
+15:40:37: федя покинул чат (85.26.165.164:6108)
+16:09:11: федя вошел в чат c IP:85.26.234.8:6312
+16:12:14: федя покинул чат (85.26.234.8:6312)
+16:58:27: федя вошел в чат c IP:85.26.234.8:23172
+16:58:28: федя покинул чат (85.26.234.8:23172)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+17:19:46: федя покинул чат (84.88.159.13:7441)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+17:27:59: федя покинул чат (177.94.185.99:47305)
+17:41:32: федя покинул чат (60.191.52.254:40788)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+17:41:33: федя покинул чат (60.191.52.254:40863)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+18:05:35: федя покинул чат (60.191.38.77:57151)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+18:05:35: федя покинул чат (60.191.38.77:4041)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+20:14:48: федя покинул чат (107.189.11.148:35902)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+21:19:55: федя покинул чат (201.69.220.222:34378)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+21:20:20: федя покинул чат (176.239.106.95:48931)
+21:30:22: федя покинул чат (176.239.106.95:24599)
+21:46:33: федя покинул чат (39.135.34.211:48680)
+SSL handshake error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1407609C:SSL routines:SSL23_GET_CLIENT_HELLO:http request 
+21:46:33: федя покинул чат (39.135.34.211:49318)

@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.12.2019, 0:30:52
+    Author     : MorivVV
+*/
+#homepay{
+    background: whitesmoke;
+    border: 2px solid #0044DD;
+}
+#homepay, #billing{
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+#homepay select{
+    padding: 3px;
+    margin-top: 5px;
+    background: aliceblue;
+    color: indigo;
+    font-weight: bold;
+}
+#homepay img{
+    position: relative;
+    top: 10px;;
+}
+.bil-line {
+    display: flex;
+    flex-wrap: wrap;
+    background: appworkspace;
+    border: 1px solid #00008B;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.head{
+    display: flex;
+    text-align: center;
+    background:purple;
+    color: lightyellow;
+    font-weight: bold;
+    text-shadow: none;
+}
+.head .onebill {
+    background:purple;
+}
+.bil-line:nth-child(2n){
+    background: azure;
+}
+.bil-line:focus-within{
+    background: lemonchiffon;
+    border: 1px solid yellow;
+}
+.onebill{
+    padding: 1px;
+    border: 1px solid #0000FF;
+    flex-grow: 1;
+    flex-basis: 60px;
+    text-align: end;
+}
+.onebill:nth-child(-n+2){
+    flex-basis: 150px;
+}
+div.onebill[contenteditable=true]{
+    background: #e2ffe2;
+    font-weight: bold;
+}
+@media screen and (max-width: 450px){
+    .onebill:nth-child(-n+2){
+        flex-basis: 20%;
+    }
+    .onebill{
+        font-size: 10px;
+        flex-basis: 5%;
+    }
+    #homepay, #billing{
+        margin: 1px;
+    }
+}

@@ -1,0 +1,264 @@
+#upicsmall{
+    height:50px;
+    min-width: 50px;
+}
+#messageattach{
+    width:50px;
+}  
+.list {
+    width:100px;
+}
+.list ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    display:none;
+}	
+.list:hover ul {
+    display:inline;
+    position:absolute;
+}
+.list:hover ul  li{
+    display:inline;
+}
+li div{	
+    display:inline-block;
+}
+div.cubimg img{ 
+    height: 50px;
+    overflow:hidden;
+    padding: 1px;
+    border: 2px white solid;
+}
+td div ul img:hover	{ 
+    border: 2px solid yellow;
+}
+.message_right
+{
+    font-family: Tahoma, sans-serif; /* Гарнитура шрифта */
+    font-size: 10pt;
+}
+.message_left
+{
+    font-family: Tahoma, sans-serif; /* Гарнитура шрифта */
+    font-size: 10pt;
+}
+.message_text
+{
+    max-width:90%;
+    min-width:46%;
+    padding: 10px 15px;
+    border-radius:50px 0px 50px 20px;
+}
+span.message_text + span.message_text
+{
+    min-width:1%;
+}
+.message_author
+{
+    max-width:90%;
+}
+.message_time
+{
+    max-width:90%;
+}
+.message_right .message_text, .message_right  .message_author, .message_right .message_time
+{
+    float: right;
+    background:azure;
+}
+.message_left .message_text, .message_left .message_author, .message_left .message_time
+{
+    float: left;
+    background:ivory;
+}
+.message_left .message_text
+{
+    border-radius:0px 50px 20px 50px;	
+}
+.hoverimg {
+    float: left;
+    clear: none; /* Можно установить left или right по необходимости */
+}
+.hoverimg a { 
+    display:block;
+    text-decoration: none;
+    /* Если добавить правило cursor:default;, то отключится курсор в виде руки */
+}
+
+.hoverimg a:hover{ /* Не надо изменять тип позиционирования */
+    position:relative;
+}
+
+.hoverimg span img {
+    border: 1px solid #FFFFFF; /* Добавляем рамку вокруг изображения */
+    height:180px;
+}
+
+.hoverimg a span {  /* Для большого изображения и названия */
+    position: absolute;
+    display:none;
+}
+
+.hoverimg img { /* Для IE, чтобы не было рамки вокруг ссылки */
+    border-width: 0;
+    margin:0 1;
+}
+.hoverimg:hover img { /* Для IE, чтобы не было рамки вокруг ссылки */
+    border-width: 0;
+    width: auto;
+}
+.hoverimg a:hover span { 
+    display:block;
+    top: 15px; /* Большое изображение выскакивает вверх на 50px от миниатюры */
+    left: 10px; /* Большое изображение выскакивает влево на 90px от миниатюры */
+    z-index: 100;
+}
+.resize_thumb {
+    height : 25px;
+}
+.block{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:stretch;
+    margin: 1px;
+    border: 1px solid gray;
+    order: 2;
+}
+.opis{
+    flex-basis: calc(100% - 350px);
+    min-width: 340px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    justify-content:flex-start;
+}
+.line-opis{
+    display: flex;
+    flex-basis: 100%
+}
+.param{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    font-variant: small-caps;
+    font-size: 14pt;
+    background: white;
+    flex-basis: 35%;
+    border: 1px solid silver;
+    text-decoration: none;
+}
+.func{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-variant: small-caps;
+    font-style: italic;
+    background: whitesmoke;
+    border: 1px solid silver;
+    font-size: 14pt;
+    flex-grow: 1;
+    flex-basis: 60%;
+}
+.func input {
+    width: 100%;
+    border: 1px solid #cccccc;
+    background: whitesmoke;
+    text-align:center;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+.photo img {
+    width: 100%;
+    padding: 2;
+}
+.list img {
+    object-fit: cover;
+    min-width: 50px;
+    min-height: 50px;
+}
+.upload {
+    flex-basis: calc(100% - 400px);
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+.window-sms {
+    margin: 2px;
+    display: flex;
+    width: 99%;
+}
+.window-photo {
+    width:38px;
+}
+.window-photo img {
+    height:36px;
+    width:36px;
+    object-fit: cover;
+    border-radius:50%;	
+}
+.window-msg {
+    display: block;
+    width: 100%;
+    background: azure;
+}
+.window-head {
+    display: flex;
+    margin: 2px;
+    background: linear-gradient(to left, azure, #6495ed);
+}
+.window-date {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    margin: 2px;
+    background: white;
+    text-shadow: none;
+    font-weight: bold;
+    border-top: solid 1px darkblue;
+    border-bottom: solid 1px darkblue;
+}
+.window-autor {
+    padding: 0 2px;
+    margin: 2px;
+    background: white;
+    border-radius:5px;
+}
+.window-autor a {
+    text-decoration:none;
+}
+.window-time {
+    padding: 0 2px;
+    margin: 2px;
+    background: palegreen;
+    border-radius:5px;
+    font-size: .77rem;
+}
+.window-text {
+    width: 99%;
+    background: azure;
+    padding: 2px;
+    border-left-color: #00bfff69;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-color: #00bfff69;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+@media screen and (max-width: 600px) {
+    .func, 
+    .param{
+        font-size: 12pt;
+    }
+}

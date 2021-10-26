@@ -1,0 +1,319 @@
+.messageBlock{
+}
+.forumnav{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 5px;
+    padding-top: 5px;
+}
+.parentforum , .currentforum {
+    padding: 2px;
+}
+.parentforum:not(:last-child):after {
+    content: "> ";
+    font-size: .9rem;
+}
+.parentforum:last-child {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    position: relative;
+}
+.parentforum a{
+    text-decoration:none;
+    color: blue;
+    margin-right: 5px;
+}
+.currentforum a{
+    text-decoration:none;
+    color: green;
+}
+.topic-page{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.messageBlock + .topic-page{
+    align-items: flex-start;
+    margin-top: -25px;
+    margin-bottom: 20;
+}
+.page{
+    top: 2px;
+    position: relative;
+    text-align: center;
+    min-width: 20px;
+    background:cornflowerblue;
+    border: 1px solid silver;
+    padding: 2px;
+    margin: 2px 0;
+    font-weight: bold;
+    color: darkblue;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: -5px;
+}
+.messageBlock + .topic-page .page{
+    border-radius: 0 0 7px 7px;
+}
+.page span{
+    z-index: 1;
+    justify-content: center;
+    position: relative;
+    width: 20px;
+    display: flex;
+    margin-bottom: -5px;
+    padding: 5px 10px;
+    border-radius: 7px 7px 0 0;
+    background: lightcyan;
+}
+.messageBlock + .topic-page .page span{
+    border-radius: 0 0 7px 7px;
+    top: -4px;
+}
+.page a{
+    display:block;
+    min-width: 20px;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: normal;
+    color: yellow;
+}
+.page a:hover{
+    text-shadow: -1px -1px 1px white, -1px 1px 1px white, 1px -1px 1px white, 1px 1px 1px white;
+    color: orange;
+    top: -2px;
+    margin-bottom: -2px;
+    position: relative;
+    font-weight: bolder;
+}
+
+.trep_message{
+    max-width: 1280px;
+    margin: 5px;
+    background: url(../image/background/fon1.png);
+    display: flex;
+    border-radius: 8px;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid gainsboro;
+}
+.message_head{
+    font-family: Tahoma, sans-serif; /* Гарнитура шрифта */
+    font-size: .8rem;
+    flex-basis: 100%;
+    color:ivory;
+    text-shadow:none;
+    max-width: 1280;
+    min-height: 20px;
+    margin: 5px 5px 2px 5px;
+    padding: 0 5px;
+    border-radius: 6px;
+    display: flex;
+    /*background: linear-gradient(to bottom, azure, #6495ed);*/
+    background: url(../image/background/balpen11.png);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1e90ff;
+}
+.message_head a {
+    color:ivory;
+}
+.message_time{
+    display:flex;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+.message_number{
+    display:flex;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    font-size: 0.7rem;
+}
+.message_number:before{
+    content: "сообщение №";
+}
+.message-quoted:before{
+    content: " >> ответ на сообщение №";
+}
+.message-quoted{
+    color: gray;
+    margin-left: 10px;
+}
+.answer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.answer:before{
+    content: "ответов:";
+}
+.user {
+    flex-basis: 100px;
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+}
+.name{
+    font-size: 1rem;
+    justify-content: center;
+    display:flex;
+    flex-basis: 25%;
+}
+.info{
+    margin: 0px 5px 5px 10px;
+    padding: 2px 0px 2px 2px;
+    align-self: flex-start;
+}
+.avatar{
+    padding: 2px 0px 2px 2px;
+}
+.rank{
+    font-size: .7rem;
+    justify-content: center;
+    display:flex;
+    flex-basis: 100%;
+}
+.topic_caver	{
+    height:90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius:25%
+}
+.trep_text{
+    position: relative;
+    background: white;	
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    margin: 0px 2px 2px 2px;
+    padding: 15px 15px 5px 5px;
+    border-radius: 8px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    width: 250px;
+    word-wrap: break-word;
+}
+.trep_text::first-line{
+    width:80%;
+}
+span.spoiler_head {
+    width: 90%;
+    display: block;
+    background: lavender;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+    border: 1px solid #80c0ff;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 0 0 0 10px;
+}
+.noread{
+    background-color: #FFD;
+    background-image: url(../image/background/Mail-New-icon.png);
+}
+span.spoiler_head:hover {
+    background: #d0f0ff;
+}
+span.spoiler_content {
+    display: none;
+}
+span.active{
+    display: block;
+}
+span.spoiler_content div {
+    background: ghostwhite;
+    font-weight: normal;
+    border: 1px solid #80c0ff;
+    font-size: .9rem;
+    margin: 0 0 0 10px;
+    padding: 2px 10px;
+}
+span.spoiler_head:before {
+    display: block;
+    float: right;
+    font-size: .8rem;
+    font-weight: normal;
+}
+span.spoiler_head_open:before {
+    content: "-";
+}
+span.spoiler_head_close:before {
+    content: "+";
+}
+.picture {
+    margin: 1px;
+    padding:2px;
+    position: relative;
+    display: inline-flex;
+    flex-wrap:wrap;
+    background: silver;
+}
+.trep_text .picture div{
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 2px;
+    padding:2px;
+    position: relative;
+    margin-left: -70px;
+    display:none;
+}
+.trep_text .picture div:hover {
+    display:inline;
+}
+.trep_text .picture img {
+    height: 120px;
+}
+.trep_text .picture img:hover + div {
+    display:inline;
+}
+.trep_text .picture a {
+    margin-left: 5px;
+    top: 10px;
+    font-size: .8rem;
+    text-decoration:none;
+    position: relative;
+}
+span.spoiler_content:after {
+    background: lavender;
+    border: 1px solid #80c0ff;
+    border-radius: 0 0 5px 5px;
+    content: "[кликните на заголовок чтобы свернуть спойлер]";
+    display: block;
+    font-weight: normal;
+    font-size: .6rem;
+    padding: 0 5px 0 5px;
+    margin: 0 0 0 10px;
+}
+@media screen and (max-width: 600px){
+    .user_avatar{
+        order: -1;
+        flex-basis: 60px;
+    }
+    .topic-page:nth-last-child(8){
+        margin-top: -5px;
+    }
+    .trep_text{
+        margin: 1px;
+    }
+    .user_info{
+        display: flex;
+        flex-basis: 100%;
+        margin: 0px 5px 0px 10px;
+        padding: 2px 0px 0px 2px;
+    }
+    .user_name, .user_rank{
+        margin-top: 3px;
+    }
+    .message_head, .trep_message{
+        margin: 0;
+    }
+    .page{
+        margin-bottom: 2px;
+    }
+    .topic_caver	{
+        height:20px;
+        width: 20px;
+        border-radius:50%
+    }
+}

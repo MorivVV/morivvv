@@ -1,0 +1,26 @@
+.table_scroll{
+	width: 99%;
+	overflow-x:auto;
+}
+.table_scroll caption{
+	color: blue;
+	font-weight: bold;
+	background: darkturquoise;
+}
+.tbl_block {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tbl_block h2 {
+	flex-basis: 100%;
+}
+.tbl_name {
+	border: 1px solid gray;
+    margin: 2px 5px;
+    padding: 2px;
+    font-weight: bold;
+    flex-basis: 275px;
+    display: flex;
+    justify-content: flex-end;
+}
+.tbl_name input{ margin:0 2px}

@@ -1,0 +1,26 @@
+.user_id{
+	max-width: 30px;
+}
+.userdata, .userlist_head{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+}
+.userlist_head {
+	background: deepskyblue;
+}
+.userdata{
+	background: whitesmoke;
+}
+.userdata:nth-child(2n){
+	background: azure
+}
+.user_id, .user_name, .family, .name, .surname, .rank{
+	flex-basis: 80px;
+	flex-grow: 1;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+.rank{
+	flex-basis: 120px;
+}
